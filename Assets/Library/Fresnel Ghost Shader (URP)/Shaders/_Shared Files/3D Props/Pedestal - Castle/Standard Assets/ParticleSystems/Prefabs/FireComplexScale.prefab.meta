@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 052b4389c7d093c4fa8c2cd0ad616901
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 38092
+  packageName: URP - Ghost Shaders
+  packageVersion: 2026.0.0
+  assetPath: Assets/Ciconia Studio/Shaders/_Shared Files/3D Props/Pedestal - Castle/Standard
+    Assets/ParticleSystems/Prefabs/FireComplexScale.prefab
+  uploadId: 907916

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 84e5430362eec6e4890597c8ede73314
+timeCreated: 1493134673
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 38092
+  packageName: URP - Ghost Shaders
+  packageVersion: 2026.0.0
+  assetPath: Assets/Ciconia Studio/Shaders/Ghost Shaders/URP/Demo Scene/Sources/Materials/Spitter_Body_Fast
+    Ghost Only Through.mat
+  uploadId: 907916

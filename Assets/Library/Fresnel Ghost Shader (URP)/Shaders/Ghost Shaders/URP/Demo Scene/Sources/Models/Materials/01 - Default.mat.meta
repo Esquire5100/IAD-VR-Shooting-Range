@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9a90cd58afccb22429f295cc09a4e0d3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 38092
+  packageName: URP - Ghost Shaders
+  packageVersion: 2026.0.0
+  assetPath: Assets/Ciconia Studio/Shaders/Ghost Shaders/URP/Demo Scene/Sources/Models/Materials/01
+    - Default.mat
+  uploadId: 907916
