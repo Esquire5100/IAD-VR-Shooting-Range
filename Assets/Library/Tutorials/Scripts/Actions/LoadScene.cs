@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
@@ -6,9 +7,19 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class LoadScene : MonoBehaviour
 {
-    public void LoadSceneUsingName(string sceneName)
+    public string sceneName;
+    public float delay = 5f;
+    
+    public void LoadSceneUsingName()
     {
+        StartCoroutine(TransitionScene());
+    }
+
+    IEnumerator TransitionScene()
+    {
+        yield return new WaitForSeconds(delay);
         SceneManager.LoadScene(sceneName);
+
     }
 
     public void ReloadCurrentScene()
