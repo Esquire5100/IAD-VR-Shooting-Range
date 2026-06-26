@@ -9,7 +9,7 @@ public class LoadScene : MonoBehaviour
 {
     public string sceneName;
     public float delay = 5f;
-    
+
     public void LoadSceneUsingName()
     {
         StartCoroutine(TransitionScene());
