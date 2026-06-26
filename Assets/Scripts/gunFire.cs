@@ -12,6 +12,7 @@ public class GunFire : MonoBehaviour
     public Transform firePoint;      //Where the VFX should appear on the gun
     public GameObject hitVFX;       //where the vfx shld appear on the target
 
+    public float dmgDealt = 10f; // Damage dealt to the enemy
     public bool canFire = true;
 
     public static float maxDistance = 50f; // Maximum distance for the raycast
@@ -46,6 +47,9 @@ public class GunFire : MonoBehaviour
             // Spawn hit effect at the impact point
             yield return new WaitForSeconds(0.2f);
             Instantiate(hitVFX, hit.point, Quaternion.LookRotation(hit.normal));
+
+            enemyController enemy = hit.transform.GetComponent<enemyController>();
+            enemy ?.TakeDamage(dmgDealt); // Call TakeDamage on the enemy if it exists
 
         }
 
