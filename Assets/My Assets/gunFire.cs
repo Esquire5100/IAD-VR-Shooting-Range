@@ -1,3 +1,4 @@
+using FORGE3D;
 using System.Collections;
 using UnityEngine;
 
@@ -9,8 +10,8 @@ public class GunFire : MonoBehaviour
 
     [Header("VFX")]
     public GameObject shootVFX;      //Muzzle flash prefab
-    public Transform firePoint;      //Where the VFX should appear
-    public GameObject hitVFX;
+    public Transform firePoint;      //Where the VFX should appear on the gun
+    public GameObject hitVFX;       //where the vfx shld appear on the target
 
     public bool canFire = true;
 
@@ -45,7 +46,8 @@ public class GunFire : MonoBehaviour
 
             // Spawn hit effect at the impact point
             yield return new WaitForSeconds(0.2f);
-            Instantiate(hitVFX, hit.point, Quaternion.LookRotation(hit.normal));
+            hitVFX.GetComponent<F3DDespawn>().OnSpawned();
+            //Instantiate(hitVFX, hit.point, Quaternion.LookRotation(hit.normal));
 
         }
 

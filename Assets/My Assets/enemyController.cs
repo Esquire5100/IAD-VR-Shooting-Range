@@ -3,6 +3,7 @@ using UnityEngine;
 public class enemyController : MonoBehaviour
 {
     public float health = 100f;
+    public Transform target;
 
     void TakeDamage(float damage)
     {
