@@ -14413,6 +14413,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8337521976008088594, guid: 969eb1c6cda2dd3429c9a15f99872802, type: 3}
   m_PrefabInstance: {fileID: 1948466880176236565}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &909663164 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2758112370447598318, guid: 969eb1c6cda2dd3429c9a15f99872802, type: 3}
+  m_PrefabInstance: {fileID: 1948466880176236565}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe91dc294731a9428c0941ea7579110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: EPO::EPOOutline.Outlinable
 --- !u!1001 &912133684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34734,11 +34745,19 @@ PrefabInstance:
     - target: {fileID: 6702872290189762050, guid: 969eb1c6cda2dd3429c9a15f99872802, type: 3}
       propertyPath: m_HoverExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 5498166519092234461}
+      objectReference: {fileID: 909663164}
     - target: {fileID: 6702872290189762050, guid: 969eb1c6cda2dd3429c9a15f99872802, type: 3}
       propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 5498166519092234461}
+      objectReference: {fileID: 909663164}
+    - target: {fileID: 6702872290189762050, guid: 969eb1c6cda2dd3429c9a15f99872802, type: 3}
+      propertyPath: m_HoverExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702872290189762050, guid: 969eb1c6cda2dd3429c9a15f99872802, type: 3}
+      propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
     - target: {fileID: 8390431634170789211, guid: 969eb1c6cda2dd3429c9a15f99872802, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5080295
@@ -35691,17 +35710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2b82c757a706dd44ad77efcf0d513f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FORGE3D.F3DFXController
---- !u!114 &5498166519092234461 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 627357838358948724, guid: 7cef984b27d7ebf48b7ae4b1a5362ed7, type: 3}
-  m_PrefabInstance: {fileID: 5498166519092234455}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fe91dc294731a9428c0941ea7579110, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: EPO::EPOOutline.Outlinable
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
