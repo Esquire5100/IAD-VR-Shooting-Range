@@ -137,10 +137,58 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -249,7 +297,7 @@ MonoBehaviour:
   outlineLayer: 0
   outlineTargets:
   - CutoutMask: 8
-    renderer: {fileID: 0}
+    renderer: {fileID: 3168131876106492042}
     SubmeshIndex: 0
     BoundsMode: 0
     Bounds:
@@ -260,7 +308,238 @@ MonoBehaviour:
     cutoutTextureName: 
     cutoutTextureIndex: 0
   - CutoutMask: 8
-    renderer: {fileID: 0}
+    renderer: {fileID: 5962821417770008781}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 8448274881379079217}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 3555040949933697726}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 8642997528480288374}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 1424535035195859392}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 4260484694112386470}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 4543826701135130819}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 5196801871335779523}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 881296738933137789}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 2111499748604294697}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 9211486655945947347}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 7501311758903406887}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 1874644661268793000}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 6078549718675708134}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 1445585589695213461}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 1543913786566557823}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 4949942310410501038}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 8758798972865420726}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 1211359557443462911}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 2009204398173115248}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 929766853472981098}
+    SubmeshIndex: 0
+    BoundsMode: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    CutoutThreshold: 0.5
+    CullMode: 2
+    cutoutTextureName: 
+    cutoutTextureIndex: 0
+  - CutoutMask: 8
+    renderer: {fileID: 1635612839447748316}
     SubmeshIndex: 0
     BoundsMode: 0
     Bounds:
@@ -376,8 +655,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2299206161216320700}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -0.119, y: -0.0057, z: 0.054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.119, y: -0.045, z: -0.146}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -438,8 +717,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8819549666448874389}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 0.074, y: -0.0052, z: 0.08}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.074, y: -0.063, z: 0.067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -840,6 +1119,9 @@ PrefabInstance:
     - {fileID: -4887323835961743922, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4075583451408066985}
     - targetCorrespondingSourceObject: {fileID: -459283334683323030, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7964602256476975286}
@@ -927,6 +1209,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034bc47afcbf5e141a58d5c20b7808e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: EPO::EPOOutline.TargetStateListener
+--- !u!23 &881296738933137789 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5197365130976915195, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &929766853472981098 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -3963998092352544788, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1211359557443462911 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6112971990547671417, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1424535035195859392 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6331719864029425222, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1445585589695213461 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -3452573348393623533, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1501978340190451567 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3404114465362183959, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
@@ -944,6 +1251,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034bc47afcbf5e141a58d5c20b7808e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: EPO::EPOOutline.TargetStateListener
+--- !u!23 &1543913786566557823 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5870208824170795001, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1635612839447748316 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5956260699434471770, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1874644661268793000 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2441463536393467602, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1937564011541804094 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2379692215913464904, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
@@ -961,6 +1283,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034bc47afcbf5e141a58d5c20b7808e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: EPO::EPOOutline.TargetStateListener
+--- !u!23 &2009204398173115248 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2308061295322964746, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2022848328023085114 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6343504159538388924, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
@@ -995,6 +1322,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034bc47afcbf5e141a58d5c20b7808e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: EPO::EPOOutline.TargetStateListener
+--- !u!23 &2111499748604294697 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6437811485108484527, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3168131876106492042 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8065183449081435916, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3242245273258512448 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1664930673649786938, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
@@ -1012,6 +1349,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034bc47afcbf5e141a58d5c20b7808e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: EPO::EPOOutline.TargetStateListener
+--- !u!23 &3555040949933697726 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -771183905889622728, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3571081434474938171 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8472741077863788733, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
@@ -1029,6 +1371,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034bc47afcbf5e141a58d5c20b7808e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: EPO::EPOOutline.TargetStateListener
+--- !u!23 &4260484694112386470 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -55601221259611616, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4447993509730917100 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -459283334683323030, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
@@ -1063,11 +1410,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034bc47afcbf5e141a58d5c20b7808e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: EPO::EPOOutline.TargetStateListener
+--- !u!23 &4543826701135130819 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8868947715940728645, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4868540486904572013 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
   m_PrefabInstance: {fileID: 4907303713736003462}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &4949942310410501038 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -9175093630577069016, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5196801871335779523 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -8357412626514484411, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5249885910425514711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4075583451408066985
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5249885910425514711}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.15686251, y: 0.5494674, z: 2.1906886}
+  m_Center: {x: 0.009654366, y: -0.07079788, z: 0.06114308}
 --- !u!1 &5261594661684969119 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8277951680903745255, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
@@ -1119,6 +1507,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034bc47afcbf5e141a58d5c20b7808e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: EPO::EPOOutline.TargetStateListener
+--- !u!23 &5962821417770008781 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1646642662452055883, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6078549718675708134 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1171330048994039648, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6199729757934847883 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7920736750097364979, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
@@ -1238,6 +1636,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034bc47afcbf5e141a58d5c20b7808e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: EPO::EPOOutline.TargetStateListener
+--- !u!23 &7501311758903406887 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3170602270158323361, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7822016412101631179 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6298463567160585395, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
@@ -1289,6 +1692,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034bc47afcbf5e141a58d5c20b7808e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: EPO::EPOOutline.TargetStateListener
+--- !u!23 &8448274881379079217 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -5682289818470179913, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8642997528480288374 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3740282164815921648, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8758798972865420726 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4438227030651408944, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8809197602988430249 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4730274730938360785, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
@@ -1306,3 +1724,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034bc47afcbf5e141a58d5c20b7808e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: EPO::EPOOutline.TargetStateListener
+--- !u!23 &9211486655945947347 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -4913434935763126443, guid: 8695629c48551f448a3e0a7a4fc490c4, type: 3}
+  m_PrefabInstance: {fileID: 4907303713736003462}
+  m_PrefabAsset: {fileID: 0}
