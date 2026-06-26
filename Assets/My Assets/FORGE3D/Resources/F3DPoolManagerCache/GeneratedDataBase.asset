@@ -25,8 +25,8 @@ MonoBehaviour:
     - {fileID: 400002, guid: ca6dec307275d294ba519247d04b6733, type: 3}
     poolLength: 050000000500000005000000050000000500000005000000
     poolLengthMax: 640000006400000064000000640000006400000064000000
-    broadcastSpawnName: OnSpawn
-    broadcastDespawnName: OnDespawn()
+    broadcastSpawnName: OnSpawned
+    broadcastDespawnName: OnDespawned
     delayedSpawnInInstall: 1
     objectsPerUpdate: 5
     needBroadcasting: 1

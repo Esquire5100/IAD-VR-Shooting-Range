@@ -1,4 +1,3 @@
-using FORGE3D;
 using System.Collections;
 using UnityEngine;
 
@@ -46,8 +45,7 @@ public class GunFire : MonoBehaviour
 
             // Spawn hit effect at the impact point
             yield return new WaitForSeconds(0.2f);
-            hitVFX.GetComponent<F3DDespawn>().OnSpawned();
-            //Instantiate(hitVFX, hit.point, Quaternion.LookRotation(hit.normal));
+            Instantiate(hitVFX, hit.point, Quaternion.LookRotation(hit.normal));
 
         }
 
