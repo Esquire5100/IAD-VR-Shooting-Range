@@ -1,3 +1,5 @@
+using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
@@ -10,6 +12,12 @@ public class enemyController : MonoBehaviour
 
     public Transform target;
     public NavMeshAgent agent;
+
+    protected bool isHurt;
+    protected bool isDead;
+    public event Action<enemyController> OnDied;
+
+    public EnemySpawner EnemySpawner;
 
     void Start()
     {
@@ -37,8 +45,20 @@ public class enemyController : MonoBehaviour
         }
     }
 
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("MainCamera"))
+        {
+            EnemySpawner.GameEnd();
+        }
+
+    }
+
     void Die()
     {
+        OnDied?.Invoke(this);
+        agent.velocity = Vector3.zero;
+        agent.isStopped = true;
         Destroy(gameObject);
     }
 }
