@@ -686,5 +686,5 @@ MonoBehaviour:
   shootVFX: {fileID: 100002, guid: e4aff98840a58c94ea1cec28789d55d6, type: 3}
   firePoint: {fileID: 758519204203469936}
   hitVFX: {fileID: 100004, guid: ec543be1efaafca46aeac6f66e7a5ff0, type: 3}
-  dmgDealt: 70
+  dmgDealt: 100
   canFire: 1

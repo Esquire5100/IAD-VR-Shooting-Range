@@ -180,6 +180,6 @@ public class EnemySpawner : MonoBehaviour
         // Show the end game UI and load the main menu after a delay
         endGame.SetActive(true);
         new WaitForSeconds(3f);
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Main Menu");
     }
 }

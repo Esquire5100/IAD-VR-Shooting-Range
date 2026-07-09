@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
@@ -12,6 +13,7 @@ public class enemyController : MonoBehaviour
 
     public Transform target;
     public NavMeshAgent agent;
+    public Animator animator;
 
     protected bool isHurt;
     protected bool isDead;
@@ -21,7 +23,9 @@ public class enemyController : MonoBehaviour
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
+        EnemySpawner = FindObjectOfType<EnemySpawner>();
         currentHealth = maxHealth;
     }
 
@@ -47,11 +51,21 @@ public class enemyController : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("MainCamera"))
+        animator.SetBool("isAttacking", true);
+        Debug.Log("Enemy is attacking");
+        if (other.CompareTag("Player"))
         {
-            EnemySpawner.GameEnd();
+            StartCoroutine(AttackNEnd());
         }
 
+    }
+
+    public IEnumerator AttackNEnd()
+    {
+        Debug.Log("Enemy has attacked the player");
+        yield return new WaitForSeconds(3f);
+        animator.SetBool("isAttacking", false);
+        EnemySpawner.GameEnd();
     }
 
     void Die()
