@@ -3,6 +3,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class enemyController : MonoBehaviour
@@ -53,19 +54,18 @@ public class enemyController : MonoBehaviour
     {
         animator.SetBool("isAttacking", true);
         Debug.Log("Enemy is attacking");
-        if (other.CompareTag("Player"))
-        {
-            StartCoroutine(AttackNEnd());
-        }
-
+        StartCoroutine(AttackNEnd());
     }
 
     public IEnumerator AttackNEnd()
     {
         Debug.Log("Enemy has attacked the player");
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         animator.SetBool("isAttacking", false);
-        EnemySpawner.GameEnd();
+        if (SceneManager.GetActiveScene().name == "Simulation")
+        {
+            EnemySpawner.GameEnd();
+        }
     }
 
     void Die()
