@@ -170,6 +170,13 @@ public class EnemySpawner : MonoBehaviour
     {
         // Stop spawning enemies and clear all the ones on the scene
         StopSpawning();
+
+        StartCoroutine(ReturnToMain());
+    }
+
+    public IEnumerator ReturnToMain()
+    {
+        yield return new WaitForSeconds(3f); // Wait for a second before clearing enemies
         foreach (enemyController enemy in activeEnemies)
         {
             Destroy(enemy.gameObject);
@@ -179,7 +186,7 @@ public class EnemySpawner : MonoBehaviour
 
         // Show the end game UI and load the main menu after a delay
         endGame.SetActive(true);
-        new WaitForSeconds(10f);
+        yield return new WaitForSeconds(5f);
         SceneManager.LoadScene("Main Menu");
     }
 }

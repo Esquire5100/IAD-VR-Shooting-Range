@@ -128,6 +128,12 @@ MonoBehaviour:
   target: {fileID: 0}
   agent: {fileID: 4084328242913231947}
   animator: {fileID: 9500000}
+  footstepVolume: 0.8
+  footsteps:
+  - {fileID: 8300000, guid: 9b978374b2a3f90488f725f9abdf1ddf, type: 3}
+  - {fileID: 8300000, guid: 902e2d03fe41dbf489814a6c60bbbbc8, type: 3}
+  - {fileID: 8300000, guid: f12d35b1ef770734faeb978e8d346470, type: 3}
+  - {fileID: 8300000, guid: c06aab632fda12c438ea2aa0650c2c53, type: 3}
   EnemySpawner: {fileID: 0}
 --- !u!65 &-1200478996062477831
 BoxCollider:
@@ -148,8 +154,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.35, y: 2, z: 1}
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Size: {x: 2.1, y: 2, z: 1.8}
+  m_Center: {x: 0, y: 1, z: 0.5}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
