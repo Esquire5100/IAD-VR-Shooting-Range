@@ -5842,6 +5842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mech_Humanoid_Lvl3
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d9a8d0a0d2fb8394aab372788d100d6c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d9a8d0a0d2fb8394aab372788d100d6c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5499997
@@ -13237,6 +13241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mech_Humanoid_Lvl1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f557b4fbacad54242986f63d9512f70e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f557b4fbacad54242986f63d9512f70e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.02
@@ -15700,6 +15708,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ed337f840c1d2964688838112fbcf9e2, type: 3}
       propertyPath: m_Name
       value: Mech_Humanoid_Lvl2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ed337f840c1d2964688838112fbcf9e2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ed337f840c1d2964688838112fbcf9e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20725,6 +20737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mech_Humanoid_Lvl2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ed337f840c1d2964688838112fbcf9e2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ed337f840c1d2964688838112fbcf9e2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.1499996
@@ -23068,6 +23084,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f557b4fbacad54242986f63d9512f70e, type: 3}
       propertyPath: m_Name
       value: Mech_Humanoid_Lvl1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f557b4fbacad54242986f63d9512f70e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f557b4fbacad54242986f63d9512f70e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33292,6 +33312,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d9a8d0a0d2fb8394aab372788d100d6c, type: 3}
       propertyPath: m_Name
       value: Mech_Humanoid_Lvl3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d9a8d0a0d2fb8394aab372788d100d6c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d9a8d0a0d2fb8394aab372788d100d6c, type: 3}
       propertyPath: m_LocalPosition.x

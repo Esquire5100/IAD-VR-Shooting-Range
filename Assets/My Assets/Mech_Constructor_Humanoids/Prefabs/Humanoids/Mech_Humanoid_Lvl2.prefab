@@ -128,7 +128,7 @@ MonoBehaviour:
   target: {fileID: 0}
   agent: {fileID: 4084328242913231947}
   animator: {fileID: 9500000}
-  footstepVolume: 0.8
+  footstepVolume: 1.1
   footsteps:
   - {fileID: 8300000, guid: 9b978374b2a3f90488f725f9abdf1ddf, type: 3}
   - {fileID: 8300000, guid: 902e2d03fe41dbf489814a6c60bbbbc8, type: 3}
