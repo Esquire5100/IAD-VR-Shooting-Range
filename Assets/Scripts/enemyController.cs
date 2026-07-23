@@ -74,15 +74,18 @@ public class enemyController : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        animator.SetBool("isAttacking", true);
-        Debug.Log("Enemy is attacking");
-        StartCoroutine(AttackNEnd());
+        if (other.CompareTag("Player"))
+        {
+            animator.SetBool("isAttacking", true);
+            Debug.Log("Enemy is attacking");
+            StartCoroutine(AttackNEnd());
+        }
     }
 
     public IEnumerator AttackNEnd()
     {
         Debug.Log("Enemy has attacked the player");
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.8f);
         animator.SetBool("isAttacking", false);
         if (SceneManager.GetActiveScene().name == "Simulation")
         {
